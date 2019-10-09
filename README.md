@@ -5,7 +5,7 @@ This library was programmed in Atmel Studio 7.0 in C language. An AVR library fo
 Ledstrip security:  
 1000uF 6,3V capacitor or higher across + and - terminals of ledstrip to prevent pixel damage. 300 to 500 Ohm resistor between microcontro. datapin and ledstrip data pin to prevent voltage spikes that damage first pixel.
 
-Add the fillowing existing files to your code:  
+Add the following existing files to your code. You dont need the rest of the files other than these:  
   avr_compiler.h  
   clock.c   for generating higher clock rate  
   stream.c  
