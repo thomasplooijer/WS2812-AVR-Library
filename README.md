@@ -17,5 +17,6 @@ Add the following existing files to your code. You dont need the rest of the fil
   usart_driver.h  
   WS2812.c  main file  
   
+### Other:
 Datapin: D8 (PE0) on AtXmega256A3U  
 Using timer (800kHz) and PWM to produce correct timing for executing PWM dutycycle.
